@@ -6,4 +6,5 @@ function divid()
     return c;
 }
 let d=divid();
+
 console.log("division is ",d);
