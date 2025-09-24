@@ -11,7 +11,6 @@ const server =h.createServer(
         if(d2.fname == 'soham' && d3.lname == 'shelar')
         {
             response.write("<h1>" + d2.fname + d3.lname + "</h1>")
-
         }
         else
         {
