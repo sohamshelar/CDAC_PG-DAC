@@ -1,7 +1,7 @@
 const express=require('express')
 const data=require('./MOCK_DATA.json')
 const app=express();
-const port=3000
+const port=3030
 
 app.get('/',(req,res)=>{
     res.send("Hello From Express");
@@ -35,7 +35,7 @@ app.get('/users/:id',(req ,res)=>{
 
 });
 
-app.post('/soham/:id',(req,res)=>{
+app.post('/adduser',(req,res)=>{
     const id=Number(req.params.id)
     const da=data.find(
         da=>da.id === id
@@ -45,6 +45,7 @@ app.post('/soham/:id',(req,res)=>{
     {
         return res.json("Data is not found");
     }
+    
     return res.json(da);
 })
 app.delete('/users/:id', (req, res) => {
