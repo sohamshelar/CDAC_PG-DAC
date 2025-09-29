@@ -7,14 +7,17 @@ export default function TextToList() {
   const handleBlur = () => {
     if (input.trim() !== "") {
       setItems(oldItems => [...oldItems, input.trim()]);
-      setInput(""); // Optionally clear after adding
+      setInput(""); 
     }
   };
 
   return (
     <div>
+          <h3>-------------------------------------------------------------------------------</h3>
         <br></br>
+      
         <h3> Enter Text Data below</h3>
+        
       <input
         type="text"
         value={input}
