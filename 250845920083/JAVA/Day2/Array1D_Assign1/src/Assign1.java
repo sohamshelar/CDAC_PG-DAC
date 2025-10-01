@@ -11,12 +11,13 @@ import java.util.Scanner;
 		}
 	}
 	
-	public static boolean IsPrime(int [] arr)
+	public static boolean IsPrime(int n)
 	{
-		for(int i=0 ; i<arr.length ; i++)
+		int arrnew[]=new int[arr.length];
+		for(int i=2 ; i<n ; i++)
 		{
 			
-			if(arr[i] % 2 ==  0)
+			if(n % i ==  0)
 			{
 				return false;
 			}
