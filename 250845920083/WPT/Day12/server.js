@@ -19,8 +19,6 @@ app.get('/shashank', (req, res) => {
 });
 
 
-
-
 app.get('/users', (req, res) => {
 
     res.json(data);
