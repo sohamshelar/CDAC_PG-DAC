@@ -1,0 +1,120 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="d1" style="background-color: rgb(226, 211, 211);">
+        <label>Enter name</label>
+        <input type="text" placeholder="user name" name="ename" id="ename"/><br><br>
+        <label>Enter Last name</label>
+        <input type="text" placeholder="last name" name="lname" id="lname"/><br><br>
+        <label>Enter Email</label>
+        <input type="email" name="emname" id="emname"/><br><br>
+        <button type="button" onclick="Vild()">Click</button>
+    </div>
+    <div id="d2" style="background-color: aqua;">
+        <table id="t1">
+            <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Email</th>
+            </tr>
+        </table>
+
+    </div>
+</body>
+<script>
+    function Vild()
+    {
+        let ename=document.getElementById("ename").value;
+        let lname=document.getElementById("lname").value;
+        let email=document.getElementById("emname").value;
+
+        if(ename.trim()=="")
+    {
+
+    }
+
+    let table=document.getElementById("t1");
+    let newRow=table.insertRow(table.rows.length);
+    newRow.insertCell(0).innerHTML=ename;
+    newRow.insertCell(1).innerHTML=lname;
+    newRow.insertCell(2).innerHTML=email;
+
+    }
+</script>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="d1" style="background-color: currentColor;">
+        
+        <label> Enter First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="first name"/>
+
+        <label > Enter Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name">
+
+
+        <label>  enter Email id</label>
+        <input type="email" name="ename" id="ename">
+
+
+        <button type="button" onclick="Validate()">pressmee>>>..</button>
+
+
+
+    </div>
+
+
+    <div id="d2" style="background-color: mistyrose;">
+        <table id="t1">
+            <tr>
+                <th>first name</th>
+                <th>last name </th>
+                <th>Email</th>
+            </tr>
+        </table>
+
+
+    </div>
+
+
+    <script>
+        function Validate(){
+
+            let fname=document.getElementById("fname").value;
+            let lname=document.getElementById("lname").value;
+            let ename=document.getElementById("ename").value;
+         if(fname.trim()==""){
+
+         }
+          let table = document.getElementById("t1");
+       
+       let newRow=table.insertRow(table.rows.length);
+
+         newRow.insertCell(0).innerHTML=fname;
+         newRow.insertCell(1).innerHTML=lname;
+         newRow.insertCell(2).innerHTML=ename;
+
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
