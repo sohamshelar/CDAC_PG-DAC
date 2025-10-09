@@ -15,4 +15,16 @@ public interface EmployeeService {
 
 	List<Employee> findByName(String nm);
 
+	boolean updateSal(int id, double sal);
+
+	boolean deleteBySal(double sal);
+
+	List<Employee> findBySal(double sal);
+
+	List<Employee> sortBySal();
+
+	List<Employee> searchByName(String s1);
+
+	boolean deleteByName(String n1);
+
 }
