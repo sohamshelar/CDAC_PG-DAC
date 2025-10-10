@@ -7,7 +7,7 @@ import App1 from './App';
 // import Function from './Function';
 
 // import reportWebVitals from './reportWebVitals';
-// import Factorial from './Func_factorial';
+import Factorial from './Func_factorial';
 // import Calculator from './Cal';
 // import UpperCase from './UpperCase';
 // import RadioUpper from './RadioUpper';
@@ -29,9 +29,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    {/* <Function></Function>
-   <Calculator></Calculator>
+   <Calculator></Calculator> */}
     <Factorial></Factorial>
-    <UpperCase></UpperCase>
+    {/* <UpperCase></UpperCase>
     <RadioUpper></RadioUpper>
     <Dropdown></Dropdown>
     <Counter></Counter>
@@ -40,10 +40,10 @@ root.render(
     <RefFunct></RefFunct>
     <GetData></GetData>
     <PasswordGenerator></PasswordGenerator>
-    <Count12></Count12> */}
-    {/* <About></About>
-    <Contact_Us></Contact_Us> */}
-    <App1></App1>
+    <Count12></Count12> 
+    <About></About>
+    <Contact_Us></Contact_Us>
+    <App1></App1> */}
     
 
    
