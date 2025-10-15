@@ -1,5 +1,7 @@
 package com.beans;
 
+import com.exceptions.NegativeSalException;
+
 public class Employee {
 	private int eid;
 	private String name;
@@ -28,7 +30,15 @@ public class Employee {
 	public double getSal() {
 		return sal;
 	}
-	public void setSal(double sal) {
+	public void setSal(double sal) throws NegativeSalException{
+		if(sal < 0)
+		{
+			throw new NegativeSalException("Salary Cannot Be Negative");
+		}
+		else if(sal<4000)
+		{
+			throw new NegativeSalException("Salary Connot Be < 4000");
+		}
 		this.sal = sal;
 	}
 	@Override
