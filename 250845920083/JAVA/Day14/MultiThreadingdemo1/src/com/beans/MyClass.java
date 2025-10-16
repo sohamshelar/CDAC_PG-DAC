@@ -36,5 +36,11 @@ public class MyClass {
 	{
 		return n+n1;
 	}
+	
+	public int multNum(int n,int n1)
+	{
+		return n * n1;
+	}
+	
 
 }

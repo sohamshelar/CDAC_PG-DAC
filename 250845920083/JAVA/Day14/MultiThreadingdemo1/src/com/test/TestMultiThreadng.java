@@ -22,6 +22,9 @@ public class TestMultiThreadng {
 		Thread th1=new Thread(ad1);
 		th1.start();
 		
+		MultNumThread mt1=new MultNumThread(20,3,c1);
+		mt1.start();
+		
 		
 		System.out.println("Main complete its work");
 	}
