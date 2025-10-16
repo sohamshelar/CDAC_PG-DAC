@@ -10,7 +10,7 @@ public class TestCopy2 {
 	public static void main(String[] args) {
 		FileInputStream fis=null;
 		FileOutputStream fos=null;
-		//open file for reading purpose
+		
 		try {
 			 fis=new FileInputStream("myfile.txt");
 			fos=new FileOutputStream("myfilecopy.txt");
@@ -30,7 +30,7 @@ public class TestCopy2 {
 				fis.close();
 				fos.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 			

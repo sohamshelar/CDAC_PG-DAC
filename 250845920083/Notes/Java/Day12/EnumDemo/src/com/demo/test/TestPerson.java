@@ -24,5 +24,6 @@ public static void main(String[] args) {
 	System.out.println(p2);
 	System.out.println(Gender.valueOf(g));
 	
+	
 }
 }

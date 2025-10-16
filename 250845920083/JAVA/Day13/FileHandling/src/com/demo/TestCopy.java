@@ -9,7 +9,7 @@ public class TestCopy {
 
 	public static void main(String[] args) {
 		
-		//open file for reading purpose
+		
 		try {
 			FileInputStream fis=new FileInputStream("myfile.txt");
 			FileOutputStream fos=new FileOutputStream("myfilecopy.txt");
