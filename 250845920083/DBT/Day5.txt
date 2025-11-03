@@ -921,4 +921,4 @@ mysql> select stop_id, stop_name 'Current station', lead(stop_name) over(partiti
 +---------+---------------------------------------------------+---------------------------------------------------+
 64 rows in set (0.00 sec)
 
-mysql>  
+  
