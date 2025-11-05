@@ -16,7 +16,7 @@ public class TestSinglyLinkedLists {
 		list1.addNode(2);
 		list1.displayData();
 		list1.addByPosition(1,100);
-		list1.addByPosition(3, 200);
+		list1.addByPosition(3,200);
 		//adding after last node
 		list1.addByPosition(8, 300);
 		//error check
