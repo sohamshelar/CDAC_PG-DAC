@@ -110,7 +110,7 @@ public class CircularLinkedList {
 					prev=temp;
 					temp=temp.next;
 				}
-					if(i==pos-1) {
+				if(i==pos-1) {
 					prev.next=temp.next;
 					temp.next=null;
 				}else {
