@@ -1,6 +1,6 @@
-package com.demo.test;
+package com.Test;
 
-import com.demo.trees.MyBinarySearchTree;
+import com.Trees.MyBinarySearchTree;
 
 public class TestBinarySearchTree 
 {

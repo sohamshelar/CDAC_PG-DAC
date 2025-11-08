@@ -1,4 +1,4 @@
-package com.demo.trees;
+package com.Trees;
 
 public class MyBinarySearchTree 
 {
