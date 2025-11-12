@@ -63,3 +63,331 @@ mysql> call pro1(100,200,@z);
 1 row in set (0.00 sec)
 
 Query OK, 0 rows affected (0.00 sec)
+
+Microsoft Windows [Version 10.0.19045.6456]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\IET>mysql --host=192.168.10.117 --port=3306 --user=dac83 --password=welcome
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 744
+Server version: 8.0.44 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use dac83
+Database changed
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> call pro1(12,13,@z,@z1,@z2);
++------+
+| z    |
++------+
+|   25 |
++------+
+1 row in set (0.00 sec)
+
++------+
+| z1   |
++------+
+|  156 |
++------+
+1 row in set (0.00 sec)
+
++------+
+| z2   |
++------+
+|    1 |
++------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> call pro1(5,10,@z,@z1,@z2);
++------+
+| z    |
++------+
+|   15 |
++------+
+1 row in set (0.00 sec)
+
++------+
+| z1   |
++------+
+|   50 |
++------+
+1 row in set (0.01 sec)
+
++------+
+| z2   |
++------+
+|    1 |
++------+
+1 row in set (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> call pro1();
++----------------------------------+
+| message                          |
++----------------------------------+
+| Transaction FAILED. Rolled back. |
++----------------------------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+mysql> call pro1();
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> call pro1();
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> desc dept;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| DEPTNO    | int         | NO   | PRI | NULL    |       |
+| DNAME     | varchar(12) | YES  |     | NULL    |       |
+| LOC       | varchar(10) | YES  |     | NULL    |       |
+| PWD       | varchar(20) | YES  |     | NULL    |       |
+| STARTEDON | varchar(10) | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> call pro1();
+Query OK, 1 row affected (0.06 sec)
+
+mysql> select * from dept;
++--------+------------+----------+------------+------------+
+| DEPTNO | DNAME      | LOC      | PWD        | STARTEDON  |
++--------+------------+----------+------------+------------+
+|     10 | ACCOUNTING | NEW YORK | r50mpm     | 24/03/1989 |
+|     20 | RESEARCH   | DALLAS   | a12recmpm  | 12/04/1989 |
+|     30 | SALES      | CHICAGO  | sales@2017 | 13/04/1989 |
+|     40 | OPERATIONS | BOSTON   | opr@123    | 12/07/1989 |
+|     50 | HR         | PUNE     | PUN@8877   | 22/12/1989 |
+|     60 | IT         | BARODA   | BRD@1122   | 02/10/1989 |
+|     81 | PQR        | baroda   | xyz        | 24/03/1989 |
++--------+------------+----------+------------+------------+
+7 rows in set (0.00 sec)
+
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> call pro1();
+Query OK, 1 row affected (0.10 sec)
+
+mysql> select * from dept;
++--------+------------+----------+------------+------------+
+| DEPTNO | DNAME      | LOC      | PWD        | STARTEDON  |
++--------+------------+----------+------------+------------+
+|     10 | ACCOUNTING | NEW YORK | r50mpm     | 24/03/1989 |
+|     20 | RESEARCH   | DALLAS   | a12recmpm  | 12/04/1989 |
+|     30 | SALES      | CHICAGO  | sales@2017 | 13/04/1989 |
+|     40 | OPERATIONS | BOSTON   | opr@123    | 12/07/1989 |
+|     50 | HR         | PUNE     | PUN@8877   | 22/12/1989 |
+|     60 | IT         | BARODA   | BRD@1122   | 02/10/1989 |
+|     81 | PQR        | baroda   | xyz        | 24/03/1989 |
+|     82 | DarkDip    | Bombay   | BOMB@BAY   | 01/04/2028 |
++--------+------------+----------+------------+------------+
+8 rows in set (0.00 sec)
+
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> desc dept;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| DEPTNO    | int         | NO   | PRI | NULL    |       |
+| DNAME     | varchar(12) | YES  |     | NULL    |       |
+| LOC       | varchar(10) | YES  |     | NULL    |       |
+| PWD       | varchar(20) | YES  |     | NULL    |       |
+| STARTEDON | varchar(10) | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+mysql> call pro1();
+ERROR 1062 (23000): Duplicate entry '82' for key 'dept.PRIMARY'
+mysql> call pro2();
+ERROR 1318 (42000): Incorrect number of arguments for PROCEDURE dac83.pro2; expected 4, got 0
+mysql> call pro2('shashank','nagpur','shashank123',01/04/2022);
+ERROR 1054 (42S22): Unknown column 'p_name' in 'field list'
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.06 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> call pro2('shashank','nagpur','shashank123',01/04/2022);
+ERROR 1265 (01000): Data truncated for column 'STARTEDON' at row 1
+mysql> select * from dept;
++--------+------------+----------+------------+------------+
+| DEPTNO | DNAME      | LOC      | PWD        | STARTEDON  |
++--------+------------+----------+------------+------------+
+|     10 | ACCOUNTING | NEW YORK | r50mpm     | 24/03/1989 |
+|     20 | RESEARCH   | DALLAS   | a12recmpm  | 12/04/1989 |
+|     30 | SALES      | CHICAGO  | sales@2017 | 13/04/1989 |
+|     40 | OPERATIONS | BOSTON   | opr@123    | 12/07/1989 |
+|     50 | HR         | PUNE     | PUN@8877   | 22/12/1989 |
+|     60 | IT         | BARODA   | BRD@1122   | 02/10/1989 |
+|     81 | PQR        | baroda   | xyz        | 24/03/1989 |
+|     82 | DarkDip    | Bombay   | BOMB@BAY   | 01/04/2028 |
++--------+------------+----------+------------+------------+
+8 rows in set (0.00 sec)
+
+mysql> call pro2('shashank','nagpur','shashank123','01/04/2022');
++-----------------+
+| message         |
++-----------------+
+| Record Inserted |
++-----------------+
+1 row in set (0.06 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> select * from dept;
++--------+------------+----------+-------------+------------+
+| DEPTNO | DNAME      | LOC      | PWD         | STARTEDON  |
++--------+------------+----------+-------------+------------+
+|     10 | ACCOUNTING | NEW YORK | r50mpm      | 24/03/1989 |
+|     20 | RESEARCH   | DALLAS   | a12recmpm   | 12/04/1989 |
+|     30 | SALES      | CHICAGO  | sales@2017  | 13/04/1989 |
+|     40 | OPERATIONS | BOSTON   | opr@123     | 12/07/1989 |
+|     50 | HR         | PUNE     | PUN@8877    | 22/12/1989 |
+|     60 | IT         | BARODA   | BRD@1122    | 02/10/1989 |
+|     81 | PQR        | baroda   | xyz         | 24/03/1989 |
+|     82 | DarkDip    | Bombay   | BOMB@BAY    | 01/04/2028 |
+|     83 | SHASHANK   | NAGPUR   | shashank123 | 01/04/2022 |
++--------+------------+----------+-------------+------------+
+9 rows in set (0.00 sec)
+
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> call pro1(82);
++------------------+
+| MSG              |
++------------------+
+| Record deleted.. |
++------------------+
+1 row in set (0.06 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> select * from dept;
++--------+------------+----------+-------------+------------+
+| DEPTNO | DNAME      | LOC      | PWD         | STARTEDON  |
++--------+------------+----------+-------------+------------+
+|     10 | ACCOUNTING | NEW YORK | r50mpm      | 24/03/1989 |
+|     20 | RESEARCH   | DALLAS   | a12recmpm   | 12/04/1989 |
+|     30 | SALES      | CHICAGO  | sales@2017  | 13/04/1989 |
+|     40 | OPERATIONS | BOSTON   | opr@123     | 12/07/1989 |
+|     50 | HR         | PUNE     | PUN@8877    | 22/12/1989 |
+|     60 | IT         | BARODA   | BRD@1122    | 02/10/1989 |
+|     81 | PQR        | baroda   | xyz         | 24/03/1989 |
+|     83 | SHASHANK   | NAGPUR   | shashank123 | 01/04/2022 |
++--------+------------+----------+-------------+------------+
+8 rows in set (0.00 sec)
+
+mysql> call pro2('shashank','nagpur','shashank123','01/04/2022');
++-----------------+
+| message         |
++-----------------+
+| Record Inserted |
++-----------------+
+1 row in set (0.05 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> call pro1(1,2);
++--------+----------+---------+------------+------------+
+| DEPTNO | DNAME    | LOC     | PWD        | STARTEDON  |
++--------+----------+---------+------------+------------+
+|     20 | RESEARCH | DALLAS  | a12recmpm  | 12/04/1989 |
+|     30 | SALES    | CHICAGO | sales@2017 | 13/04/1989 |
++--------+----------+---------+------------+------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> call pro1(2,2);
++--------+------------+---------+------------+------------+
+| DEPTNO | DNAME      | LOC     | PWD        | STARTEDON  |
++--------+------------+---------+------------+------------+
+|     30 | SALES      | CHICAGO | sales@2017 | 13/04/1989 |
+|     40 | OPERATIONS | BOSTON  | opr@123    | 12/07/1989 |
++--------+------------+---------+------------+------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> source C:\Users\IET\Desktop\s\CDAC_PG-DAC\250845920083\DBT\pl1.sql
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> call pro1(83);
+Empty set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> call pro1();
+ERROR 1318 (42000): Incorrect number of arguments for PROCEDURE dac83.pro1; expected 1, got 0
+mysql> call pro1(20);
+Empty set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> call pro1(81);
+Empty set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql>
