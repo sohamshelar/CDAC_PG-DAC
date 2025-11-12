@@ -23,6 +23,7 @@ public class MyArrayTest {
 		//ma.addArrayDigit(arr);
 		ma.PrimeFact(arr);
 		ma.MaxPrime(arr);
+		ma.CopyArray(arr);
 
 	
 	}

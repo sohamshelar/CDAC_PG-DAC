@@ -49,8 +49,8 @@ public class MyArray {
 
 	public int factorial(int num) {
 	    int fact = 1;
-	    for (int k = 2; k <= num; k++) {
-	        fact *= k;
+	    for (int i = 2; i <= num; i++) {
+	        fact *= i;
 	    }
 	    return fact;
 	}
@@ -72,19 +72,29 @@ public class MyArray {
 		System.out.println("Max prime number is " + max);
 		return max;
 	}
-//	public void MaxPrime(int [] arr)
-//	{
-//		int max=Max(arr);
-//		System.out.println("Maximum number is "+ max);
-//			if(max % 2!=0)
-//			{
-//				System.out.println(max + " Number is prime");
-//			}
-//			else
-//			{
-//				System.out.println(max + " Number is not prime");
-//			}
-//	}
+	
+	public int [] CopyArray(int [] arr)
+	{
+		int [] temp =new int[arr.length];
+		int rev=0,rem=0;
+		int sum=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i] % 2 !=0 && arr[i]>5)
+			{
+				rem=arr[i]%10;
+				rev=(rev * 10) + rem;
+				arr[i]=arr[i]/10;
+				temp[i]=rev;
+			}else
+			{
+				temp[i]=arr[i];
+			}
+			System.out.println(temp[i]);
+		}
+		
+		return temp;
+	}
 	
 	
 }
