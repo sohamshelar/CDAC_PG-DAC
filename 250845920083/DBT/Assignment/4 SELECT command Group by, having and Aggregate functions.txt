@@ -352,19 +352,216 @@ mysql> SELECT CONCAT(UPPER(SUBSTRING(ename, 1, 1)), LOWER(SUBSTRING(ename, 2, CH
 30 rows in set (0.00 sec)
 
 21.	List employee numbers, names and hiredates of the people working in the department number 20, display the hiredates in the dd/mm/yy format
+
+mysql> SELECT empno, ename, DATE_FORMAT(hiredate, '%d/%m/%y') AS hiredate FROM emp WHERE deptno = 20 GROUP BY empno, ename, hiredate HAVING COUNT(empno) > 0;
++-------+---------+----------+
+| empno | ename   | hiredate |
++-------+---------+----------+
+|  6473 | SHARMIN | 19/07/81 |
+|  6781 | BANDISH | 19/07/81 |
+|  7369 | SMITH   | 17/12/80 |
+|  7566 | JONES   | 02/04/81 |
+|  7788 | SCOTT   | 09/12/82 |
+|  7840 | FRED    | 09/08/83 |
+|  7876 | ADAMS   | 12/01/83 |
+|  7902 | FORD    | 03/12/81 |
++-------+---------+----------+
+8 rows in set, 1 warning (0.00 sec)
+
+
 22.	Find number of months the president has worked for the company. 
+
+mysql> SELECT job, TIMESTAMPDIFF(MONTH, MIN(hiredate), CURDATE()) AS months_worked FROM emp GROUP BY job HAVING job = 'PRESIDENT';
++-----------+---------------+
+| job       | months_worked |
++-----------+---------------+
+| PRESIDENT |           527 |
++-----------+---------------+
+1 row in set (0.00 sec)
+
+
 23.	Find the day of the week on which SMITH joined
+
+mysql> SELECT ename, DAYNAME(hiredate) AS day_joined FROM emp GROUP BY ename, hiredate HAVING ename = 'SMITH';
++-------+------------+
+| ename | day_joined |
++-------+------------+
+| SMITH | Wednesday  |
++-------+------------+
+1 row in set (0.00 sec)
+
+
 24.	Find the time of time of the day in which ADAMS joined
+
+
+mysql> SELECT ename, TIME(hiredate) AS time_joined FROM emp GROUP BY ename, hiredate HAVING ename = 'ADAMS';
++-------+-------------+
+| ename | time_joined |
++-------+-------------+
+| ADAMS | 00:00:00    |
++-------+-------------+
+1 row in set (0.00 sec)
+
+
 25.	Find day of month on which KING joined
+
+mysql> SELECT ename, DAYOFMONTH(hiredate) AS day_of_month_joined FROM emp GROUP BY ename, hiredate HAVING ename = 'KING';
++-------+---------------------+
+| ename | day_of_month_joined |
++-------+---------------------+
+| KING  |                  17 |
++-------+---------------------+
+1 row in set (0.00 sec)
+
+
+
 26.	Find out month on which MARTIN joined
+
+mysql> SELECT ename, MONTH(hiredate) AS month_joined FROM emp GROUP BY ename, hiredate HAVING ename = 'MARTIN';
++--------+--------------+
+| ename  | month_joined |
++--------+--------------+
+| MARTIN |            9 |
++--------+--------------+
+1 row in set (0.00 sec)
+
+
 27.	Find out which quarter of the year the employees joined. Display their number and names as well
+
+mysql> SELECT empno, ename, QUARTER(hiredate) AS join_quarter FROM emp GROUP BY empno, ename, hiredate;
++-------+----------+--------------+
+| empno | ename    | join_quarter |
++-------+----------+--------------+
+|  6001 | GITA     |            3 |
+|  6129 | VRUSHALI |            3 |
+|  6473 | SHARMIN  |            3 |
+|  6781 | BANDISH  |            3 |
+|  7369 | SMITH    |            4 |
+|  7415 | AARAV    |            4 |
+|  7421 | THOMAS   |            3 |
+|  7499 | ALLEN    |            1 |
+|  7521 | WARD     |            1 |
+|  7566 | JONES    |            2 |
+|  7654 | MARTIN   |            3 |
+|  7698 | BLAKE    |            2 |
+|  7782 | CLARK    |            2 |
+|  7788 | SCOTT    |            4 |
+|  7839 | KING     |            4 |
+|  7840 | FRED     |            3 |
+|  7844 | TURNER   |            3 |
+|  7876 | ADAMS    |            1 |
+|  7888 | Ruhan    |            3 |
+|  7889 | Neel     |            3 |
+|  7900 | JAMES    |            4 |
+|  7902 | FORD     |            4 |
+|  7919 | HOFFMAN  |            1 |
+|  7920 | GRASS    |            1 |
+|  7934 | MILLER   |            1 |
+|  7945 | AARUSH   |            1 |
+|  7949 | ALEX     |            1 |
+|  8433 | NATASHA  |            3 |
+|  9400 | SANGITA  |            3 |
+|  9473 | SUPRIYA  |            3 |
++-------+----------+--------------+
+30 rows in set (0.00 sec)
+
+
 28.	Retrieve ANALYST records with the hiredate formatted as – ‘The 3rd of December 1984’
+
+mysql> SELECT empno, ename, CONCAT('The ', DATE_FORMAT(hiredate, '%D of %M %Y')) AS formatted_hiredate FROM emp WHERE job = 'ANALYST' GROUP BY empno, ename, hiredate;
++-------+---------+--------------------------+
+| empno | ename   | formatted_hiredate       |
++-------+---------+--------------------------+
+|  7788 | SCOTT   | The 9th of December 1982 |
+|  7902 | FORD    | The 3rd of December 1981 |
+|  9473 | SUPRIYA | The 19th of July 1981    |
++-------+---------+--------------------------+
+3 rows in set (0.00 sec)
+
 29.	List all names, jobs, and a job classification number, which is to be assigned by you. Translate the value started in each job field to a job classification number. This is to be done as follows-
 A.	CLERK
 B.	MANAGER
 C.	PRESIDENT
 D.	OTHER
+
+mysql> SELECT ename, job,CASE WHEN job = 'CLERK' THEN 'A' WHEN job = 'MANAGER' THEN 'B'WHEN job = 'PRESIDENT' THEN 'C'ELSE 'D' END AS job_classification FROM emp GROUP BY ename, job HAVING 1=1;
++----------+---------------------+--------------------+
+| ename    | job                 | job_classification |
++----------+---------------------+--------------------+
+| GITA     | Compliance officers | D                  |
+| VRUSHALI | Compliance officers | D                  |
+| SHARMIN  | Public Relation     | D                  |
+| BANDISH  | Public Relation     | D                  |
+| SMITH    | CLERK               | A                  |
+| AARAV    | CLERK               | A                  |
+| THOMAS   | CLERK               | A                  |
+| ALLEN    | SALESMAN            | D                  |
+| WARD     | SALESMAN            | D                  |
+| JONES    | MANAGER             | B                  |
+| MARTIN   | SALESMAN            | D                  |
+| BLAKE    | MANAGER             | B                  |
+| CLARK    | MANAGER             | B                  |
+| SCOTT    | ANALYST             | D                  |
+| KING     | PRESIDENT           | C                  |
+| FRED     | vice PRESIDENT      | D                  |
+| TURNER   | SALESMAN            | D                  |
+| ADAMS    | CLERK               | A                  |
+| Ruhan    | Network             | D                  |
+| Neel     | vice PRESIDENT      | D                  |
+| JAMES    | CLERK               | A                  |
+| FORD     | ANALYST             | D                  |
+| HOFFMAN  | MANAGER             | B                  |
+| GRASS    | SALESMAN            | D                  |
+| MILLER   | CLERK               | A                  |
+| AARUSH   | SALESMAN            | D                  |
+| ALEX     | MANAGER             | B                  |
+| NATASHA  | CLERK               | A                  |
+| SANGITA  | Compliance officers | D                  |
+| SUPRIYA  | ANALYST             | D                  |
++----------+---------------------+--------------------+
+30 rows in set (0.00 sec)
+
+
+
 30.	Display the length of the longest employees name 
+
+mysql> SELECT MAX(LENGTH(ename)) AS max_name_length FROM emp GROUP BY ename HAVING 1=1;
++-----------------+
+| max_name_length |
++-----------------+
+|               4 |
+|               8 |
+|               7 |
+|               7 |
+|               5 |
+|               5 |
+|               6 |
+|               5 |
+|               4 |
+|               5 |
+|               6 |
+|               5 |
+|               5 |
+|               5 |
+|               4 |
+|               4 |
+|               6 |
+|               5 |
+|               5 |
+|               4 |
+|               5 |
+|               4 |
+|               7 |
+|               5 |
+|               6 |
+|               6 |
+|               4 |
+|               7 |
+|               7 |
+|               7 |
++-----------------+
+30 rows in set (0.00 sec)
+
 31.	Write a query to list the length of service of the employees (of the form n years and m months).
 32.	How many employees who are joined in 1985.
 33.	How many employees joined each month in 1985.
