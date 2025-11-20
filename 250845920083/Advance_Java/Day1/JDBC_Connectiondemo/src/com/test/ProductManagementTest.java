@@ -1,6 +1,9 @@
 package com.test;
 
+import java.util.List;
 import java.util.Scanner;
+
+import com.beans.Product;
 import com.service.ProductService;
 
 import com.service.ProductServiceImpl;
@@ -59,9 +62,29 @@ public class ProductManagementTest {
 				{
 					System.out.println("Not updated");
 				}
-	
-				
+			  }
+			case 4->{
+				System.out.println("Enter Id");
+				int id=sc.nextInt();
+				Product p=pservice.getById(id);
+				if(p==null) {
+					System.out.println("Not Found");
+				}else {
+			      System.out.println(p);      
+				}
+			   }
+			
+			case 5->{
+				List<Product> plst=pservice.getAllProduct();
+				plst.forEach(System.out::println);
 			}
+			
+			case 6->{
+				List<Product> plst=pservice.sortByPrice();
+				plst.forEach(System.out::println);
+			}
+			
+			
 			
 		}
 
