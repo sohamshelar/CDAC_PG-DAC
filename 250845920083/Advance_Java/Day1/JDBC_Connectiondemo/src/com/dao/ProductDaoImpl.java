@@ -152,6 +152,12 @@ public class ProductDaoImpl implements ProductDao{
 		}
 		return null;
 	}
+
+	@Override
+	public void closeConnection() {
+		DBUtil.closeMyConnection();
+		
+	}
 	
 	
 }

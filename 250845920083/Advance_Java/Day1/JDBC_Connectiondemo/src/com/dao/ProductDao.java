@@ -18,4 +18,6 @@ public interface ProductDao {
 
 	List<Product> arrangeByPrice();
 
+	void closeConnection();
+
 }

@@ -72,6 +72,13 @@ public class ProductServiceImpl implements  ProductService{
 		
 		return pdao.arrangeByPrice();
 	}
+
+
+	@Override
+	public void closeMyConnection() {
+		pdao.closeConnection();
+		
+	}
 	
 	
 	
