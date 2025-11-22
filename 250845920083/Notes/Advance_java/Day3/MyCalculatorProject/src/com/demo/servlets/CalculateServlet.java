@@ -30,7 +30,7 @@ public class CalculateServlet extends HttpServlet{
 			
 			int ans=factorial(num1);
 			out.println("<h2>Factorial :"+ans+"</h2>");
-		}
+		} 
 		}
 		
 		
