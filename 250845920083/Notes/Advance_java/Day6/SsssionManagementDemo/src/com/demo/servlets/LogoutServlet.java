@@ -24,7 +24,7 @@ public class LogoutServlet extends HttpServlet {
 		PrintWriter out=response.getWriter();
 		//destroy the session
 		session.invalidate();
-		out.println("<h3>Thank you for visiting.... do visit again...</h3>")
+		out.println("<h3>Thank you for visiting.... do visit again...</h3>");
 		RequestDispatcher rd=request.getRequestDispatcher("Login.html");
 		rd.include(request, response);
 		

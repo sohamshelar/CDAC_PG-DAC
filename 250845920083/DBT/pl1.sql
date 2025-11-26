@@ -227,3 +227,15 @@
 
 
 
+drop function if exists fn1;
+delimiter $
+create function fn1() returns varchar(20)
+DETERMINISTIC
+b1:BEGIN
+	declare x varchar(20);
+   select 'Hello World' into x;
+   set @a := x;
+   return x;
+end b1$
+delimiter ;
+
