@@ -51,13 +51,18 @@ SELECT CONCAT(EMPNO, ' ', ENAME, ' ', MGR) AS EmployeeInfo FROM Emp;
 11.	List the employee who is hired the earliest and least.
 
 -- Earliest hired employee
+
 SELECT * FROM Emp WHERE HIREDATE = (SELECT MIN(HIREDATE)FROM Emp);
 
 -- Least paid employee
+
 SELECT * FROM Emp WHERE SAL = (SELECT MIN(SAL)FROM Emp);
 
 
 12.	What length of longest ename and by how many characters is it long than its nearest one?
+
+
+
 13.	Which employees earn less than 30% of president s salary?
 14.	List the department spending highest on salary.
 15.	List the department having least number of staff.
