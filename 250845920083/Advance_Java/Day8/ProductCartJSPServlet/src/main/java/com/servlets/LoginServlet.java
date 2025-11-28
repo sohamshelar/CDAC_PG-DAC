@@ -1,6 +1,7 @@
 package com.servlets;
 
 import java.io.IOException;
+
 import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
@@ -24,24 +25,24 @@ public class LoginServlet extends HttpServlet {
        
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
-		response.setContentType("text/html");
-		PrintWriter out=response.getWriter();
-		String uname=request.getParameter("uname");
-		String pass=request.getParameter("pass");
-		LoginService lservice=new LoginServiceImpl();
-		MyUser user=lservice.validateUSer(uname,pass);
-		if(user!=null)
-		{
-			HttpSession session=request.getSession();
-			session.setAttribute("user", user);
-			RequestDispatcher rd= request.getRequestDispatcher("showproduct");
-			rd.forward(request, response);
-			
-		}else {
-			out.print("<h1>INVALID CREDENTIALS</h1>");
-			RequestDispatcher rd= request.getRequestDispatcher("Login.html");
-			rd.include(request, response);
-		}
+		   response.setContentType("text/html");
+			PrintWriter out=response.getWriter();
+			String uname=request.getParameter("uname");
+			String pass=request.getParameter("pass");
+			LoginService lservice=new LoginServiceImpl();
+			MyUser user=lservice.validateUSer(uname,pass);
+			if(user!=null) {
+				//save user object in session
+				HttpSession session=request.getSession();
+				session.setAttribute("user", user);
+				RequestDispatcher rd=request.getRequestDispatcher("showproduct");
+				rd.forward(request, response);
+			}else {
+				out.print("<h1>Invalid credentials</h1>");
+				RequestDispatcher rd=request.getRequestDispatcher("Login.jsp");
+				rd.include(request, response);
+				
+			}
 	}
 
 }

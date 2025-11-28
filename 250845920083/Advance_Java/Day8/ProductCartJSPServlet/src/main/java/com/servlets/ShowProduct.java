@@ -40,7 +40,7 @@ public class ShowProduct extends HttpServlet {
 		else
 		{
 			out.print("<h1>Invalid Credentials");
-			RequestDispatcher rd=request.getRequestDispatcher("Login.html");
+			RequestDispatcher rd=request.getRequestDispatcher("Login.jsp");
 			rd.include(request, response);
 		}
 		doGet(request, response);
