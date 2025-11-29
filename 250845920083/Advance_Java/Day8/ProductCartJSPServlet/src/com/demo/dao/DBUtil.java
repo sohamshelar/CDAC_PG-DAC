@@ -1,4 +1,4 @@
-package com.dao;
+package com.demo.dao;
 
 import java.sql.Connection;
 
@@ -30,4 +30,5 @@ public class DBUtil {
 			e.printStackTrace();
 		}
 	} 
+
 }

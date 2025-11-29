@@ -1,34 +1,31 @@
-package com.dao;
+package com.demo.dao;
 
 import java.sql.Connection;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.beans.Product;
+import com.demo.bean.Product;
 
 public class ProductDaoImpl implements ProductDao{
 	static Connection conn;
 	static PreparedStatement selproduct,insproduct,selById,updateById,deleteById;
 	
-	static 
-	{
+	static {
 		conn=DBUtil.getMyConnection();
-		
 		try {
-			selproduct=conn.prepareStatement("Select * from myproduct");
-			insproduct=conn.prepareStatement("insert into myproduct values(?,?,?,?,?,?)");
+			selproduct=conn.prepareStatement("select * from myproduct");
+			insproduct = conn.prepareStatement("insert into myproduct values(?,?,?,?,?,?)");
 			selById=conn.prepareStatement("select * from myproduct where pid=?");
 			updateById=conn.prepareStatement("update myproduct set pname=?,qty=?,price=?,expdate=?,cid=? where pid=?");
 			deleteById=conn.prepareStatement("delete from myproduct where pid=?");
-			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
 
 	@Override

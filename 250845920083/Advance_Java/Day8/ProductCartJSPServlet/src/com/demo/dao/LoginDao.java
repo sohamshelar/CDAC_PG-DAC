@@ -1,6 +1,6 @@
-package com.dao;
+package com.demo.dao;
 
-import com.beans.MyUser;
+import com.demo.bean.MyUser;
 
 public interface LoginDao {
 
