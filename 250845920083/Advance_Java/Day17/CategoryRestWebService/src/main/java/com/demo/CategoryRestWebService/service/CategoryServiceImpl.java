@@ -39,7 +39,7 @@ public class CategoryServiceImpl implements CategoryService {
 				.orElseThrow(()-> new RuntimeException("Category not found"));
 		
 		List<ProductDto> productList= restClient.get()
-				.uri("http://localhost:8383/product/category/" + cid)
+				.uri("http://localhost:8282/products/category/" + cid)
 				.retrieve()
 				.body(new ParameterizedTypeReference<List<ProductDto>>() {});
 		CategoryDto cdto=new CategoryDto();
