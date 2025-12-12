@@ -32,7 +32,7 @@ public class JwtUtil {
         return SECRET;
     }
 
-    private static final long EXPIRATION = 24 * 60 * 60 * 1000; // 24 hours
+    private static final long EXPIRATION = 24 *  60 * 60 * 1000; // 24 hours
 
 
     public String generateToken(UserDetails user) {

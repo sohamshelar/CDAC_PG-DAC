@@ -11,3 +11,4 @@ public interface LoginDao extends JpaRepository<MyUSer,String>{
 	@Query(value="select * from user1 where uname=:username",nativeQuery=true)
 	MyUSer findByUname(String username);
 }
+ 

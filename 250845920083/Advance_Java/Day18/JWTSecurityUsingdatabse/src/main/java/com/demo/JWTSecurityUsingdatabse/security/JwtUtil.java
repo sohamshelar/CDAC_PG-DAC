@@ -2,12 +2,14 @@ package com.demo.JWTSecurityUsingdatabse.security;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
+import java.util.function.Function;
 
 import javax.crypto.SecretKey;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
+import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 
@@ -30,7 +32,7 @@ public class JwtUtil {
 	
 	 private static final long EXPIRATION = 24 * 60 * 60 * 1000;
 	
-	private String generateToken(UserDetails user) 
+	public String generateToken(UserDetails user) 
 	{
 		return Jwts.builder()
 				.subject(user.getUsername())
@@ -41,4 +43,28 @@ public class JwtUtil {
 				.compact();
 	}
 	
+
+    public String extractUsername(String token) {
+        return extractClaim(token, Claims::getSubject);
+    }
+
+	public <T> T extractClaim(String token,Function<Claims,T>claimsResolver) {
+		System.out.println("in ExtractClaims");
+		
+		Claims claims=Jwts.parser()
+				.verifyWith(KEY)
+				.build()
+				.parseSignedClaims(token)
+				.getPayload();
+		return claimsResolver.apply(claims);
+	}
+	
+	public boolean  validateToken(String token, UserDetails user)
+	{
+		return extractUsername(token).equals(user.getUsername()) && !isTokenExpired(token);
+	}
+
+	private boolean isTokenExpired(String token) {
+		return extractClaim(token, Claims::getExpiration).before(new Date());
+	}
 }
