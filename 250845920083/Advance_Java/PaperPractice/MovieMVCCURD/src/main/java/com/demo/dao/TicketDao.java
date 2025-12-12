@@ -39,7 +39,8 @@ public class TicketDao {
     }
     
     public List<Ticket> getUserBookings(String email) {
-        List<Ticket> tickets = new ArrayList<>();
+    	List<Ticket> tickets = new ArrayList<Ticket>();
+
         String sql = "SELECT * FROM tickets WHERE user_email = ? ORDER BY booking_time DESC";
         
         try (Connection conn = DBUtil.getConnection();
