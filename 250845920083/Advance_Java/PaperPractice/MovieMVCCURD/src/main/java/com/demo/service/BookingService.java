@@ -22,7 +22,7 @@ public class BookingService {
         return false;
     }
     
-    public Show getShowDetails(int showId) {
+    public Show getShowDetails(int showId)s{
         return showDAO.getShowById(showId);
     }
 }
