@@ -106,7 +106,7 @@
     { 
         public void DoSpellCheck()
         {
-            Console.WriteLine("Spell check doone for German text");
+            Console.WriteLine("Spell check done for German text");
         }
     }
 
