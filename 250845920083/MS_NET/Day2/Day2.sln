@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseServerDemo", "Datab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealClass", "SealClass\SealClass.csproj", "{246CA394-DC13-41E8-8FA3-98804FC72FAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotePadDemo", "NotePadDemo\NotePadDemo.csproj", "{0306922E-1B2C-480C-804C-77982BCAB0CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{246CA394-DC13-41E8-8FA3-98804FC72FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{246CA394-DC13-41E8-8FA3-98804FC72FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{246CA394-DC13-41E8-8FA3-98804FC72FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0306922E-1B2C-480C-804C-77982BCAB0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0306922E-1B2C-480C-804C-77982BCAB0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0306922E-1B2C-480C-804C-77982BCAB0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0306922E-1B2C-480C-804C-77982BCAB0CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
