@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Refelction
+namespace Reflection
 {
     internal class Program
     {
