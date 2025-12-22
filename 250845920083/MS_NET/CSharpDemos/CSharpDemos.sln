@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpLib", "EmpLib\EmpLib.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAttributes", "CustomAttributes\CustomAttributes.csproj", "{728F1A25-FC1C-4648-88AB-5E0DDC6B0D5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM", "MyORM\MyORM.csproj", "{294911A5-3C73-408A-A08C-A2085F1A36FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +106,10 @@ Global
 		{728F1A25-FC1C-4648-88AB-5E0DDC6B0D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{728F1A25-FC1C-4648-88AB-5E0DDC6B0D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{728F1A25-FC1C-4648-88AB-5E0DDC6B0D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294911A5-3C73-408A-A08C-A2085F1A36FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294911A5-3C73-408A-A08C-A2085F1A36FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294911A5-3C73-408A-A08C-A2085F1A36FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294911A5-3C73-408A-A08C-A2085F1A36FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
