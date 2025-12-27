@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("27Demo_BinarySerialization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdfb9811ba4cb74e4e6c137ebc72b484ad267ab4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dd0a2bac9a978767b3bad490b11f903da41f75f")]
 [assembly: System.Reflection.AssemblyProductAttribute("27Demo_BinarySerialization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("27Demo_BinarySerialization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
