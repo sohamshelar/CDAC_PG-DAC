@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\storedprocedure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|solutionrelative:storedprocedure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1440636-7D17-481D-9FF8-7DE99C0356AF}|Disconnected\\Disconnected.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\disconnected\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1440636-7D17-481D-9FF8-7DE99C0356AF}|Disconnected\\Disconnected.csproj|solutionrelative:disconnected\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\storedprocedure\\storedprocedure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|solutionrelative:storedprocedure\\storedprocedure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\storedprocedure\\help.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|solutionrelative:storedprocedure\\help.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D1440636-7D17-481D-9FF8-7DE99C0356AF}|Disconnected\\Disconnected.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\disconnected\\disconnected.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1440636-7D17-481D-9FF8-7DE99C0356AF}|Disconnected\\Disconnected.csproj|solutionrelative:disconnected\\disconnected.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -26,50 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StoredProcedure",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\StoredProcedure.csproj",
-              "RelativeDocumentMoniker": "StoredProcedure\\StoredProcedure.csproj",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\StoredProcedure.csproj",
-              "RelativeToolTip": "StoredProcedure\\StoredProcedure.csproj",
+              "Title": "Disconnected",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\Disconnected\\Disconnected.csproj",
+              "RelativeDocumentMoniker": "Disconnected\\Disconnected.csproj",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\Disconnected\\Disconnected.csproj",
+              "RelativeToolTip": "Disconnected\\Disconnected.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-29T13:46:22.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Help.txt",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\Help.txt",
-              "RelativeDocumentMoniker": "StoredProcedure\\Help.txt",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\Help.txt",
-              "RelativeToolTip": "StoredProcedure\\Help.txt",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-29T13:28:24.591Z",
+              "WhenOpened": "2025-12-29T14:13:15.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\Program.cs",
-              "RelativeDocumentMoniker": "StoredProcedure\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\Program.cs",
-              "RelativeToolTip": "StoredProcedure\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\Disconnected\\Program.cs",
+              "RelativeDocumentMoniker": "Disconnected\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\Disconnected\\Program.cs",
+              "RelativeToolTip": "Disconnected\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T13:27:46.981Z",
+              "WhenOpened": "2025-12-29T14:10:57.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": ".editorconfig",
               "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\.editorconfig",
               "RelativeDocumentMoniker": ".editorconfig",

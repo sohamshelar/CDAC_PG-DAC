@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoredProcedure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+850061884ec34008c9c3d6dcb951ddfe6457f16d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbe8ee977899021f0627bd291edc9760de963669")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoredProcedure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoredProcedure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
