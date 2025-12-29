@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB4804D4-6B9B-41E1-9895-3CEB5CE8AA80}|ConnectedAdoNet\\ConnectedAdoNet.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedadonet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4804D4-6B9B-41E1-9895-3CEB5CE8AA80}|ConnectedAdoNet\\ConnectedAdoNet.csproj|solutionrelative:connectedadonet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedado\\dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|solutionrelative:connectedado\\dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4804D4-6B9B-41E1-9895-3CEB5CE8AA80}|ConnectedAdoNet\\ConnectedAdoNet.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedadonet\\connectedadonet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DB4804D4-6B9B-41E1-9895-3CEB5CE8AA80}|ConnectedAdoNet\\ConnectedAdoNet.csproj|solutionrelative:connectedadonet\\connectedadonet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|solutionrelative:connectedado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49EBCCC4-C32A-4D9D-9002-1D80399E8FC9}|LINQ4\\LINQ4.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\linq4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49EBCCC4-C32A-4D9D-9002-1D80399E8FC9}|LINQ4\\LINQ4.csproj|solutionrelative:linq4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedado\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|solutionrelative:connectedado\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{364DA757-3931-486C-8182-A4D76E7DF647}|LINQ3\\LINQ3.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\linq3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{364DA757-3931-486C-8182-A4D76E7DF647}|LINQ3\\LINQ3.csproj|solutionrelative:linq3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedado\\connectedado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|solutionrelative:connectedado\\connectedado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -34,54 +34,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConnectedAdoNet",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedAdoNet\\ConnectedAdoNet.csproj",
-              "RelativeDocumentMoniker": "ConnectedAdoNet\\ConnectedAdoNet.csproj",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedAdoNet\\ConnectedAdoNet.csproj",
-              "RelativeToolTip": "ConnectedAdoNet\\ConnectedAdoNet.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-27T13:51:12.323Z",
+              "DocumentIndex": 2,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\Models\\Emp.cs",
+              "RelativeDocumentMoniker": "ConnectedADO\\Models\\Emp.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\Models\\Emp.cs",
+              "RelativeToolTip": "ConnectedADO\\Models\\Emp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T12:01:11.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedAdoNet\\Program.cs",
-              "RelativeDocumentMoniker": "ConnectedAdoNet\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedAdoNet\\Program.cs",
-              "RelativeToolTip": "ConnectedAdoNet\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\DAL\\DbContext.cs",
+              "RelativeDocumentMoniker": "ConnectedADO\\DAL\\DbContext.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\DAL\\DbContext.cs",
+              "RelativeToolTip": "ConnectedADO\\DAL\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T13:51:04.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\LINQ4\\Program.cs",
-              "RelativeDocumentMoniker": "LINQ4\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\LINQ4\\Program.cs",
-              "RelativeToolTip": "LINQ4\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvxAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T12:42:10.125Z",
+              "WhenOpened": "2025-12-29T12:00:55.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ConnectedADO",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\ConnectedADO.csproj",
+              "RelativeDocumentMoniker": "ConnectedADO\\ConnectedADO.csproj",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\ConnectedADO.csproj",
+              "RelativeToolTip": "ConnectedADO\\ConnectedADO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-29T11:59:39.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\LINQ3\\Program.cs",
-              "RelativeDocumentMoniker": "LINQ3\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\LINQ3\\Program.cs",
-              "RelativeToolTip": "LINQ3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\Program.cs",
+              "RelativeDocumentMoniker": "ConnectedADO\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\Program.cs",
+              "RelativeToolTip": "ConnectedADO\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv3YAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T12:11:04.439Z",
+              "WhenOpened": "2025-12-29T11:58:54.541Z",
               "EditorCaption": ""
             },
             {
