@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConnectedADO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fdea63db1543b91b39a463b0e7fcaa31a1be846")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+850061884ec34008c9c3d6dcb951ddfe6457f16d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConnectedADO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConnectedADO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

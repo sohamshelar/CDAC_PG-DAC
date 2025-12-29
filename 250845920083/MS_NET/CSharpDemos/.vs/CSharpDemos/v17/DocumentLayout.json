@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedado\\dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|solutionrelative:connectedado\\dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\storedprocedure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|solutionrelative:storedprocedure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|solutionrelative:connectedado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\storedprocedure\\storedprocedure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|solutionrelative:storedprocedure\\storedprocedure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedado\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|solutionrelative:connectedado\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\connectedado\\connectedado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7F1937F1-CB8C-482C-9E4C-86D274FE0821}|ConnectedADO\\ConnectedADO.csproj|solutionrelative:connectedado\\connectedado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\ms_net\\csharpdemos\\storedprocedure\\help.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4CBE72BB-FB5B-4AEA-B23E-9942220E42CD}|StoredProcedure\\StoredProcedure.csproj|solutionrelative:storedprocedure\\help.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -30,63 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoredProcedure",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\StoredProcedure.csproj",
+              "RelativeDocumentMoniker": "StoredProcedure\\StoredProcedure.csproj",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\StoredProcedure.csproj",
+              "RelativeToolTip": "StoredProcedure\\StoredProcedure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-29T13:46:22.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Emp.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\Models\\Emp.cs",
-              "RelativeDocumentMoniker": "ConnectedADO\\Models\\Emp.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\Models\\Emp.cs",
-              "RelativeToolTip": "ConnectedADO\\Models\\Emp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:01:11.936Z",
+              "Title": "Help.txt",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\Help.txt",
+              "RelativeDocumentMoniker": "StoredProcedure\\Help.txt",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\Help.txt",
+              "RelativeToolTip": "StoredProcedure\\Help.txt",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-29T13:28:24.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\DAL\\DbContext.cs",
-              "RelativeDocumentMoniker": "ConnectedADO\\DAL\\DbContext.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\DAL\\DbContext.cs",
-              "RelativeToolTip": "ConnectedADO\\DAL\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\Program.cs",
+              "RelativeDocumentMoniker": "StoredProcedure\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\StoredProcedure\\Program.cs",
+              "RelativeToolTip": "StoredProcedure\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:00:55.318Z",
+              "WhenOpened": "2025-12-29T13:27:46.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConnectedADO",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\ConnectedADO.csproj",
-              "RelativeDocumentMoniker": "ConnectedADO\\ConnectedADO.csproj",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\ConnectedADO.csproj",
-              "RelativeToolTip": "ConnectedADO\\ConnectedADO.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-29T11:59:39.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\Program.cs",
-              "RelativeDocumentMoniker": "ConnectedADO\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\ConnectedADO\\Program.cs",
-              "RelativeToolTip": "ConnectedADO\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAADwv3YAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T11:58:54.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": ".editorconfig",
               "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\MS_NET\\CSharpDemos\\.editorconfig",
               "RelativeDocumentMoniker": ".editorconfig",
