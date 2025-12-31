@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\Notes\\Ms.net\\WebApplicationsDemo\\MVC_Template\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{727C7844-9A52-4E92-87F5-E5DC4BDA1402}|ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\notes\\ms.net\\webapplicationsdemo\\mvc_template\\returntypesofactionmethod\\returntypesofactionmethod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{727C7844-9A52-4E92-87F5-E5DC4BDA1402}|ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj|solutionrelative:returntypesofactionmethod\\returntypesofactionmethod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727C7844-9A52-4E92-87F5-E5DC4BDA1402}|ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\notes\\ms.net\\webapplicationsdemo\\mvc_template\\returntypesofactionmethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727C7844-9A52-4E92-87F5-E5DC4BDA1402}|ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj|solutionrelative:returntypesofactionmethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727C7844-9A52-4E92-87F5-E5DC4BDA1402}|ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj|c:\\users\\iet\\desktop\\soham sss\\cdac_pg-dac\\250845920083\\notes\\ms.net\\webapplicationsdemo\\mvc_template\\returntypesofactionmethod\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727C7844-9A52-4E92-87F5-E5DC4BDA1402}|ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj|solutionrelative:returntypesofactionmethod\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReturnTypesOfActionMethod",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\Notes\\Ms.net\\WebApplicationsDemo\\MVC_Template\\ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj",
+              "RelativeDocumentMoniker": "ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\Notes\\Ms.net\\WebApplicationsDemo\\MVC_Template\\ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj",
+              "RelativeToolTip": "ReturnTypesOfActionMethod\\ReturnTypesOfActionMethod.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-31T12:15:56.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\Notes\\Ms.net\\WebApplicationsDemo\\MVC_Template\\ReturnTypesOfActionMethod\\Program.cs",
+              "RelativeDocumentMoniker": "ReturnTypesOfActionMethod\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\Notes\\Ms.net\\WebApplicationsDemo\\MVC_Template\\ReturnTypesOfActionMethod\\Program.cs",
+              "RelativeToolTip": "ReturnTypesOfActionMethod\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T12:15:10.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\Notes\\Ms.net\\WebApplicationsDemo\\MVC_Template\\ReturnTypesOfActionMethod\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ReturnTypesOfActionMethod\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\soham sss\\CDAC_PG-DAC\\250845920083\\Notes\\Ms.net\\WebApplicationsDemo\\MVC_Template\\ReturnTypesOfActionMethod\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ReturnTypesOfActionMethod\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T12:14:55.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
