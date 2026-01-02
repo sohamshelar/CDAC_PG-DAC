@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViewBag_ViewData_TempData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c1899d228c4287bb7e5ac9eaa0ff7cee6bdca39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a49298748e3302bbf162223a7809169a46582e92")]
 [assembly: System.Reflection.AssemblyProductAttribute("ViewBag_ViewData_TempData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViewBag_ViewData_TempData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
